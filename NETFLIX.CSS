@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    height: 200vh;
+}
+body::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 200%;
+    opacity: 0.5;
+   background: url(netflix-octobre-contenus-2022.jpg); 
+   background-position: center;
+}
+nav{
+    position: fixed;
+    padding: 25x 60px;
+}
+nav a img{
+    width: 160px;
+}
+
+.principal{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    padding: 60px;
+    background: rgba(0,0 ,0 ,0.75);
+    transform: translate(-50%,-50%);
+
+}
+.principal h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.principal form{
+    margin: 25px 0 65px;
+}
+form .two{
+    height: 50px;
+    margin-bottom: 16px;
+}
+.two input{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+form .three{
+     height: 50px;
+     margin-bottom: 16px;  
+}
+.three input{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;   
+}
+form .four{
+    height: 50px;
+    margin-bottom: 16px
+}
+.four button{
+    width: 100%;
+    height: 100%;
+    background: #e80303;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.principal h3{
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+form .five{
+    height: 50px;
+    margin-bottom: 16px
+}
+.five button{
+    width: 100%;
+    height: 100%;
+    background: #725d5d;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+form .six{
+    height: 50px;
+   
+}
+.six a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .seven{
+    height:30px;
+     color: #fff;
+}
+.principal h4{
+color:#fff;
+}
+.principal a.A2{
+    color:#250559;
+   font-size: 1rem;
+}
+.principal h5{
+color: #fff;
+}
+.principal a.A3{
+    color:#250559;
+    font-size: 1rem;
+}
